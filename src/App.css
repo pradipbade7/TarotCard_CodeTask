@@ -1,0 +1,40 @@
+:root {
+    --card-width: 2;
+    --card-height: 3.6;
+    --card-thickness: 0.04;
+    --group-y-position: -.5; /* Mobile default */
+  }
+  
+  @media (min-width: 480px) {
+    :root {
+      --group-y-position: -1.0;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    :root {
+      --card-width: 2;
+      --card-height: 3.6;
+      --card-thickness: 0.045;
+      --group-y-position: -1;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    :root {
+      --card-width: 2;
+      --card-height: 3.6;
+      --card-thickness: 0.05;
+      --group-y-position: -3.0;
+    }
+  }
+
+  
+  @media (min-width: 1024px) {
+    :root {
+      --card-width: 2.5;
+      --card-height: 4.5;
+      --card-thickness: 0.05;
+      --group-y-position: -2.75;
+    }
+  }
